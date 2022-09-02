@@ -121,7 +121,7 @@ Task task = Task.builder(dataflowOperations)
               .build();
 
 TaskSchedule schedule = TaskSchedule.builder(dataFlowOperations)
-              .schedueName("mySchedule")
+              .scheduleName("mySchedule")
               .task(task)
               .build();
 ```
